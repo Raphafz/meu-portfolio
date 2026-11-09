@@ -15,6 +15,14 @@ const PROJECTS = [
     technologies: ['Laravel', 'PHP', 'MySQL', 'Docker'],
     href: 'https://github.com/Raphafz/FinControl',
   },
+  {
+    id: 3,
+    title: 'Verificador — Plataforma para Provedores de Internet',
+    description:
+      'SaaS multi-tenant que centraliza ferramentas que provedores regionais usavam de forma fragmentada (planilhas, scripts e bots isolados): verificação de viabilidade FTTH em mapas, alertas operacionais e operações em OLT/ONU, com isolamento por empresa, MFA e conformidade com a LGPD.',
+    technologies: ['Python', 'Django', 'PostgreSQL', 'JavaScript'],
+    href: 'https://github.com/Raphafz/verificador',
+  },
 ];
 
 export default function Projects() {
