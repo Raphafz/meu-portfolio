@@ -7,6 +7,14 @@ const PROJECTS = [
     technologies: ['Python', 'Django', 'JavaScript', 'CRUD'],
     href: 'https://github.com/Raphafz/Projeto-AthleTech',
   },
+  {
+    id: 2,
+    title: 'FinControl — Gestão Financeira',
+    description:
+      'Desenvolvido durante um minicurso na faculdade. Plataforma web que resolve o meio-termo entre planilhas simples demais e ERPs complexos: consolida contas e cartões em um painel, automatiza despesas recorrentes e projeta o fluxo de caixa dos próximos meses.',
+    technologies: ['Laravel', 'PHP', 'MySQL', 'Docker'],
+    href: 'https://github.com/Raphafz/FinControl',
+  },
 ];
 
 export default function Projects() {
@@ -25,7 +33,7 @@ export default function Projects() {
 
       <ul className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {PROJECTS.map(({ id, title, description, technologies, href }) => (
-          <li key={id} className="list-none md:col-span-2">
+          <li key={id} className="list-none">
             <article className="relative flex h-full overflow-hidden border border-zinc-800/50 bg-zinc-900/40 p-8 transition-colors duration-300 hover:border-zinc-500">
               <span
                 aria-hidden="true"
